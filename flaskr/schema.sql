@@ -30,3 +30,7 @@ CREATE TABLE Comments (
   set_rating INTEGER,
   FOREIGN KEY (id_description) REFERENCES description (id)
 );
+
+
+
+
